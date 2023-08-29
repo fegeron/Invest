@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89a1d6e0-e389-4cd9-b919-30d1926aa19c">
+  <producedTypes>
+    <objectType typeId="94abadeb-3c65-4531-8156-b7b2c4f741b6" valueTypeId="f109f87d-2d34-4a88-bfea-5dbcaf72eb18"/>
+    <refType typeId="61b64824-4b11-425c-bfe3-d45d12ef8af9" valueTypeId="d8760cbf-6a12-46d8-8c62-67a4b8437839"/>
+    <selectionType typeId="41a74516-a31e-408d-a10b-3ea42a6a832b" valueTypeId="54bf233b-fef7-42a1-ad4c-a0ecc06c93ce"/>
+    <listType typeId="9c452483-c9a4-4d9a-8eab-582b1948f08c" valueTypeId="682c13ad-2844-4db9-b082-ef7c9cc10091"/>
+    <managerType typeId="757203fb-8c47-498e-bbda-cb7f08914e15" valueTypeId="cf296ed2-826f-4e76-8fe7-4cfb62353265"/>
+  </producedTypes>
+  <name>МетодыЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МетодыЗапросов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МетодыЗапросов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МетодыЗапросов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="13f8f406-c38c-492e-8fa2-3344c872585b">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58e48585-4419-4844-a285-4f91594a1c33">
+    <name>МетодHTTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод HTTP</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыHTTPЗапросов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="147f3891-abef-4d18-aead-a6fba1cbca7d">
+    <name>ИсходящийЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящий запрос</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b0790635-1b01-4460-a232-4df3c144c16e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

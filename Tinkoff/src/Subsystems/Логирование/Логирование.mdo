@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfa9fe48-b743-48f1-8e55-08f37ac638cb">
+  <name>Логирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЖурналОбмена</content>
+</mdclass:Subsystem>

@@ -39,5 +39,17 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Логирование</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.JIRA</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСHTTP</commonModules>
+  <commonModules>CommonModule.РаботаСЖурналомОбмена</commonModules>
+  <httpServices>HTTPService.httpInvest</httpServices>
+  <catalogs>Catalog.МетодыЗапросов</catalogs>
+  <catalogs>Catalog.СервисыAPI</catalogs>
+  <enums>Enum.МетодыHTTPЗапросов</enums>
+  <enums>Enum.РезультатВыполненияЗапроса</enums>
+  <informationRegisters>InformationRegister.ЖурналОбмена</informationRegisters>
 </mdclass:Configuration>

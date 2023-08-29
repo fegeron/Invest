@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f06aec4a-8d60-47ac-a00b-4a5947ce2f98">
+  <name>httpInvest</name>
+  <synonym>
+    <key>ru</key>
+    <value>http invest</value>
+  </synonym>
+  <rootURL>http_invest</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="802dfda4-0cf9-498c-8ece-ba677bddb761">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="b09cc0c8-439f-47b7-88d6-9fd148895b25">
+      <name>GetPing</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get ping</value>
+      </synonym>
+      <handler>PingGetPing</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

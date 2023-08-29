@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d81cf4b-037c-4af3-aa69-7b7a1c89448e">
+  <producedTypes>
+    <refType typeId="168bf64b-6d9d-4dcb-8605-d4eab9e085da" valueTypeId="aee5209d-b3b2-4681-8e25-d3b0964f7760"/>
+    <listType typeId="a874c2b4-21c0-4d0a-9208-287ef71f4f6d" valueTypeId="f691c9a7-c775-4ebd-a2b6-c8e96cd142ba"/>
+    <managerType typeId="792f3267-d683-42ab-9cf6-82e0c4bb0899" valueTypeId="65a27715-7509-4dbc-8813-5cca881f63d7"/>
+  </producedTypes>
+  <name>РезультатВыполненияЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат выполнения обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f4e62bb-15ce-4973-b9b2-1792de61ffef">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20316c35-ec34-40fc-978a-85ab86a93a2e">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="104cf019-ef15-4eb5-990d-4cfc9d17437e">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1560382-a7cb-4add-806f-e4a54d01741a">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6df74b87-ca3c-483e-8d6c-5757f56ebe58">
+    <name>ПодготовленоКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлено к отправке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
