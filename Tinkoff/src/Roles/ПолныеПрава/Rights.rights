@@ -4,13 +4,50 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.Tinkoff</name>
+		<name>Catalog.МетодыЗапросов</name>
 		<right>
-			<name>ExclusiveMode</name>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>EventLog</name>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.httpInvest.URLTemplate.Ping.Method.GetPing</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СервисыAPI</name>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.Tinkoff</name>
+		<right>
+			<name>ExternalConnection</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Automation</name>
 			<value>false</value>
 		</right>
 		<right>

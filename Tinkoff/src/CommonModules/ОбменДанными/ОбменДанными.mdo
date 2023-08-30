@@ -6,4 +6,5 @@
     <value>Обмен данными</value>
   </synonym>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

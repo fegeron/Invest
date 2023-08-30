@@ -59,6 +59,10 @@
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись журнала</value>
+  </recordPresentation>
   <resources uuid="b3db1233-9de5-4c4b-911d-dfe6691034ce">
     <name>ДатаОкончания</name>
     <synonym>
