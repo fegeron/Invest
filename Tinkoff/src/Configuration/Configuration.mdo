@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Логирование</subsystems>
   <subsystems>Subsystem.Настройки</subsystems>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.http</commonModules>
   <commonModules>CommonModule.JIRA</commonModules>
   <commonModules>CommonModule.OW</commonModules>
   <commonModules>CommonModule.ОбменДанными</commonModules>
