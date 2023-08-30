@@ -579,7 +579,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Запись.РезультатВыполнения</segments>
+      <segments>Запись.РезультатВыполненияОбмена</segments>
     </dataPath>
     <extendedTooltip>
       <name>РезультатВыполненияРасширеннаяПодсказка</name>

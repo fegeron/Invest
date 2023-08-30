@@ -44,14 +44,17 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.JIRA</commonModules>
   <commonModules>CommonModule.OW</commonModules>
+  <commonModules>CommonModule.ОбменДанными</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.РаботаСHTTP</commonModules>
+  <commonModules>CommonModule.РаботаСJSON</commonModules>
   <commonModules>CommonModule.РаботаСЖурналомОбмена</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <httpServices>HTTPService.httpInvest</httpServices>
   <catalogs>Catalog.МетодыЗапросов</catalogs>
   <catalogs>Catalog.СервисыAPI</catalogs>
   <enums>Enum.МетодыHTTPЗапросов</enums>
-  <enums>Enum.РезультатВыполненияЗапроса</enums>
+  <enums>Enum.РезультатыВыполненияОбмена</enums>
   <informationRegisters>InformationRegister.ЖурналОбмена</informationRegisters>
 </mdclass:Configuration>

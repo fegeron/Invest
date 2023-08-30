@@ -5,10 +5,10 @@
     <listType typeId="a874c2b4-21c0-4d0a-9208-287ef71f4f6d" valueTypeId="f691c9a7-c775-4ebd-a2b6-c8e96cd142ba"/>
     <managerType typeId="792f3267-d683-42ab-9cf6-82e0c4bb0899" valueTypeId="65a27715-7509-4dbc-8813-5cca881f63d7"/>
   </producedTypes>
-  <name>РезультатВыполненияЗапроса</name>
+  <name>РезультатыВыполненияОбмена</name>
   <synonym>
     <key>ru</key>
-    <value>Результат выполнения обмена</value>
+    <value>Результаты выполнения обмена</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

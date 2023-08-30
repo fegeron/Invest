@@ -77,13 +77,13 @@
     <indexing>Index</indexing>
   </resources>
   <resources uuid="1bc1c3c6-d3b6-462b-a14c-51b7f062f51b">
-    <name>РезультатВыполнения</name>
+    <name>РезультатВыполненияОбмена</name>
     <synonym>
       <key>ru</key>
-      <value>Результат выполнения</value>
+      <value>Результат выполнения обмена</value>
     </synonym>
     <type>
-      <types>EnumRef.РезультатВыполненияЗапроса</types>
+      <types>EnumRef.РезультатыВыполненияОбмена</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
