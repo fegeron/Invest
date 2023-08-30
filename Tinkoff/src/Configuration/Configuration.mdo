@@ -43,7 +43,9 @@
   <subsystems>Subsystem.Настройки</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.JIRA</commonModules>
+  <commonModules>CommonModule.OW</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.РаботаСHTTP</commonModules>
   <commonModules>CommonModule.РаботаСЖурналомОбмена</commonModules>
   <httpServices>HTTPService.httpInvest</httpServices>
