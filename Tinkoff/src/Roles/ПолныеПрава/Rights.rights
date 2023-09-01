@@ -40,19 +40,4 @@
 			<value>false</value>
 		</right>
 	</object>
-	<object>
-		<name>Configuration.Tinkoff</name>
-		<right>
-			<name>ExternalConnection</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Automation</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
-			<value>false</value>
-		</right>
-	</object>
 </Rights>
