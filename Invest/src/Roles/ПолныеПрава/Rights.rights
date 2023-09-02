@@ -4,7 +4,11 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.МетодыЗапросов</name>
+		<name>Catalog.СервисыAPI</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
@@ -13,8 +17,19 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.МетодыЗапросов</name>
 		<right>
 			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -22,21 +37,6 @@
 		<name>HTTPService.httpInvest.URLTemplate.Ping.Method.GetPing</name>
 		<right>
 			<name>Use</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СервисыAPI</name>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
