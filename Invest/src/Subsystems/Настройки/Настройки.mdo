@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.МетодыЗапросов</content>
   <content>Catalog.СервисыAPI</content>
+  <content>Catalog.ТокеныДоступа</content>
 </mdclass:Subsystem>

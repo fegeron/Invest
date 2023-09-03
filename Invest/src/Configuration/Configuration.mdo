@@ -55,6 +55,7 @@
   <httpServices>HTTPService.httpInvest</httpServices>
   <catalogs>Catalog.МетодыЗапросов</catalogs>
   <catalogs>Catalog.СервисыAPI</catalogs>
+  <catalogs>Catalog.ТокеныДоступа</catalogs>
   <enums>Enum.МетодыHTTPЗапросов</enums>
   <enums>Enum.РезультатыВыполненияОбмена</enums>
   <informationRegisters>InformationRegister.ЖурналОбмена</informationRegisters>

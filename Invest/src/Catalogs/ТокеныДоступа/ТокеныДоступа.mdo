@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74e42c76-b5b8-4b99-8532-805a94e3be87">
+  <producedTypes>
+    <objectType typeId="136a4399-9dc6-4403-94af-c928da935efd" valueTypeId="10207172-b32b-41cf-affa-7b7b70a08675"/>
+    <refType typeId="fadd4de5-6965-461f-ac4b-0f48ef6ee42b" valueTypeId="4bec03f9-92a7-48cb-9acb-a27daaeac71b"/>
+    <selectionType typeId="ecfe6300-9215-43c4-aa79-6be030684141" valueTypeId="b4ec1f09-3608-4add-8d96-ecf608b0c003"/>
+    <listType typeId="53526242-34b0-4b1a-9960-041856d8b74c" valueTypeId="9793ab2d-d27b-4e66-8f27-9b4a086a129a"/>
+    <managerType typeId="5691f0c8-3973-4d2e-b443-75b5a3f050b2" valueTypeId="84b5a086-507f-479f-a618-5747d7bb5b7f"/>
+  </producedTypes>
+  <name>ТокеныДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токены доступа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТокеныДоступа.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТокеныДоступа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3d165ac5-389c-4f4e-932a-957c271e6c44">
+      <name>SandboxToken</name>
+      <description>Sandbox token</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1ea7e663-2ac0-4e74-943f-47d0079f0530">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
