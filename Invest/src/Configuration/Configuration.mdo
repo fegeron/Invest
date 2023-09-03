@@ -56,6 +56,10 @@
   <catalogs>Catalog.МетодыЗапросов</catalogs>
   <catalogs>Catalog.СервисыAPI</catalogs>
   <catalogs>Catalog.ТокеныДоступа</catalogs>
+  <catalogs>Catalog.ТорговыеИнструменты</catalogs>
+  <catalogs>Catalog.Активы</catalogs>
+  <catalogs>Catalog.Позиции</catalogs>
+  <catalogs>Catalog.СтатусыТорговыхИнстументов</catalogs>
   <enums>Enum.МетодыHTTPЗапросов</enums>
   <enums>Enum.РезультатыВыполненияОбмена</enums>
   <informationRegisters>InformationRegister.ЖурналОбмена</informationRegisters>

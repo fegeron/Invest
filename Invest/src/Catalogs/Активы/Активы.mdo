@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51a5db41-9c47-491b-bb3c-db7c55e31fb8">
+  <producedTypes>
+    <objectType typeId="f95fc726-ca17-479b-a32f-500c834f6bb3" valueTypeId="71eaa816-ad1f-4e88-b7ce-258dc831bd5d"/>
+    <refType typeId="7539aca7-21a2-4270-8868-d3a0bd3be521" valueTypeId="3bc33358-845a-47e1-83bc-be232d2939da"/>
+    <selectionType typeId="d1e5c555-aa63-429f-8c7f-a55ab2ebd94f" valueTypeId="d32c32a4-63ff-499c-8ff9-46d361e11990"/>
+    <listType typeId="6faff085-5d82-49d4-8720-306e58a3a2e2" valueTypeId="72ae5cdd-db44-4c7b-8c23-e7ab31dcf121"/>
+    <managerType typeId="4ea36eae-13a2-4c3d-b281-d02bbc7ae1cd" valueTypeId="ff64286f-3802-44d1-b01d-3f1d83c49e8d"/>
+  </producedTypes>
+  <name>Активы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компании, являющиеся эмитентом ценных бумаг (Активы)</value>
+  </synonym>
+  <comment>Компании, являющиеся эмитентом ценных бумаг</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Активы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Активы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Компания, являющаяся эмитентом ценных бумаг (Актив)</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="27350c09-5b37-4dcb-9a77-5d67f5b5aabe">
+    <name>Asset_uid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Asset uid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

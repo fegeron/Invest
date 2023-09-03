@@ -32,6 +32,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="57e20f20-dcfe-4026-be9f-dc73dfceba9b">
+      <name>TinkoffGetFindInstrument</name>
+      <description>Tinkoff GetFindInstrument</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="0be46c8d-88f0-4904-a55d-fdbce7eb2a49">
+      <name>TinkoffGetTradingStatus</name>
+      <description>Tinkoff GetTradingStatus</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.МетодыЗапросов.Form.ФормаЭлемента</defaultObjectForm>

@@ -10,4 +10,5 @@
   <content>Catalog.МетодыЗапросов</content>
   <content>Catalog.СервисыAPI</content>
   <content>Catalog.ТокеныДоступа</content>
+  <content>Catalog.СтатусыТорговыхИнстументов</content>
 </mdclass:Subsystem>

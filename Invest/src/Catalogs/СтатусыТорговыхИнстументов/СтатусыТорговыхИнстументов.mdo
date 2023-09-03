@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fdb57ba-c0c8-4f35-a49d-bb0cde28cf01">
+  <producedTypes>
+    <objectType typeId="7f453cc9-c815-4662-8af9-68b2b2afaa49" valueTypeId="f1f21a99-d3f9-4dd2-b8da-c9c5a0f61ce8"/>
+    <refType typeId="1c98a666-d9a5-4366-94fd-e1fe516abb57" valueTypeId="2a6c5ef0-165f-4225-8d62-ba4c4abf1264"/>
+    <selectionType typeId="31f083d0-5444-4e29-ae2e-960f6d7e17bf" valueTypeId="63649344-e184-4081-af4b-f4ccab8151c5"/>
+    <listType typeId="facb98d5-d4d3-4eec-aa16-97c90ee260b6" valueTypeId="7e6075d8-44aa-4642-aa01-f7d34ff10810"/>
+    <managerType typeId="085a2c99-a562-4665-bfbd-bf1a08bb5d4e" valueTypeId="ac8c5451-7135-485c-997c-b89e105587a0"/>
+  </producedTypes>
+  <name>СтатусыТорговыхИнстументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы торговых инстументов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыТорговыхИнстументов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатусыТорговыхИнстументов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус торгового инструмента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7db13df1-b99a-4302-a05e-6a6760a6accc">
+      <name>UNSPECIFIED</name>
+      <description>UNSPECIFIED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="44513159-1115-4cd3-9265-731f24cb01ec">
+      <name>NOT_AVAILABLE_FOR_TRADING</name>
+      <description>NOT AVAILABLE FOR TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b7378ea5-e2b1-4737-a6d7-cebf16a2a699">
+      <name>OPENING_PERIOD</name>
+      <description>OPENING PERIOD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="6ba80671-4b7a-454a-8319-df9564cb83b4">
+      <name>CLOSING_PERIOD</name>
+      <description>CLOSING PERIOD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="de1b51f8-5990-412a-bcc5-04bb00c777c1">
+      <name>BREAK_IN_TRADING</name>
+      <description>BREAK IN TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="b4c2b018-cd69-48ec-ba68-77628d08b15b">
+      <name>NORMAL_TRADING</name>
+      <description>NORMAL TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="4369efb2-27d6-4489-9445-07186e8f56a4">
+      <name>CLOSING_AUCTION</name>
+      <description>CLOSING AUCTION</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="1b358e95-c018-4c8f-9906-29010b7fe840">
+      <name>DARK_POOL_AUCTION</name>
+      <description>DARK POOL AUCTION</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="4d0596c3-075c-4ac3-87bc-2976c0e8eb83">
+      <name>DISCRETE_AUCTION</name>
+      <description>DISCRETE AUCTION</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="5a1e3a24-1a9f-4442-bdbb-9a0edaf7abc9">
+      <name>OPENING_AUCTION_PERIOD</name>
+      <description>OPENING AUCTION PERIOD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="7344ac56-e94e-41ba-9fa3-7e95f360565b">
+      <name>TRADING_AT_CLOSING_AUCTION_PRICE</name>
+      <description>TRADING AT CLOSING AUCTION PRICE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="dda07c14-1d08-4fc2-9dcd-03bf6a113a85">
+      <name>SESSION_ASSIGNED</name>
+      <description>SESSION ASSIGNED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="87b1679c-7377-416c-9b66-4ee4b3b3fa10">
+      <name>SESSION_CLOSE</name>
+      <description>SESSION CLOSE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="09c0d85b-e55f-43c0-82c9-739638421629">
+      <name>SESSION_OPEN</name>
+      <description>SESSION OPEN</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="4bdef7da-f20c-4eba-8c6d-bc617442871d">
+      <name>DEALER_NORMAL_TRADING</name>
+      <description>DEALER NORMAL TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="e5b09361-91f2-4770-a130-367b521aea24">
+      <name>DEALER_BREAK_IN_TRADING</name>
+      <description>DEALER BREAK IN TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="ffbcf224-6d3b-45e0-897f-d45587aa5469">
+      <name>DEALER_NOT_AVAILABLE_FOR_TRADING</name>
+      <description>DEALER NOT AVAILABLE FOR TRADING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="752fcce8-36b9-4368-a1bb-25f7ac051558">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d84fc20b-b818-4479-824a-fd752ac1dbca">
+    <name>ВозможностьВыставлятьЛимитныеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможность выставлять лимитные заявки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c379cf50-1604-4a67-99b6-38e4ac132426">
+    <name>ВозможностьВыставлятьРыночныеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможность выставлять рыночные заявки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

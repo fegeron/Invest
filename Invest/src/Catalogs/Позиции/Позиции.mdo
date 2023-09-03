@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1ca59fc-cfee-4b84-bddf-8766d4cffe2d">
+  <producedTypes>
+    <objectType typeId="901a20cb-232f-4eca-8aa3-ebd097adfb78" valueTypeId="d17164ae-000b-4e9a-b3b5-ca3aa4dcd95f"/>
+    <refType typeId="5a0e17a8-1575-4791-bf59-950a0e9eb912" valueTypeId="85da8e32-ee18-468d-a113-3c58375091f9"/>
+    <selectionType typeId="c6917ad7-1ed2-4431-80d4-f78a69a43024" valueTypeId="7ad5c8a7-9283-45b4-aa54-6ce6e35a5a5d"/>
+    <listType typeId="0cba3d32-28be-4696-85e3-d95094552d34" valueTypeId="1d137a29-03c3-4c73-9916-5ffb582338c1"/>
+    <managerType typeId="445c1502-d493-48a9-b6ec-ffdae9afc5fa" valueTypeId="88b4f50d-478b-4183-8df0-967f4e04d636"/>
+  </producedTypes>
+  <name>Позиции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые инструменты (Позиции)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Позиции.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Позиции.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Финансовый инструмент (Позиция)</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Активы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a7f017c0-c4ff-43e7-9282-5a93e533aab5">
+    <name>Position_uid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Position uid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

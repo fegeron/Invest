@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6699d41a-fb27-46d5-b1c3-34d4c545f70c">
+  <producedTypes>
+    <objectType typeId="82ff57c9-2c5d-4d29-be1e-44ef5099f890" valueTypeId="6bf7b44a-7243-44fc-b99d-e8d300f45ea8"/>
+    <refType typeId="a47ba554-a34f-4ea5-bb36-482e1e600f04" valueTypeId="3e741303-7e61-4fe6-99d6-1da2c6d1e355"/>
+    <selectionType typeId="ef590b7f-85d3-498a-860c-83b49483a91e" valueTypeId="bc83bc6b-2c2c-41dd-8f2a-4e159eecadc4"/>
+    <listType typeId="d11f6456-9d5f-47f6-9ec3-dfb42c2363df" valueTypeId="29717d63-e5ee-469b-9325-64e11658ec96"/>
+    <managerType typeId="0dd1ecd0-af98-4b9e-a022-ffa4516ff9d9" valueTypeId="799597a8-23af-4476-bfd2-2605cb066465"/>
+  </producedTypes>
+  <name>ТорговыеИнструменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые инструменты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТорговыеИнструменты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТорговыеИнструменты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Торговый инструмент</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Ценная бумага на торговой площадке (бирже) в указанном режиме торгов</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Позиции</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cdc7cb2c-feb5-4bbb-8ad0-f7a6f94b8a07">
+    <name>Isin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Isin</value>
+    </synonym>
+    <comment>международный идентификационный номер ценной бумаги, состоит из 12 символов цифр и латинских букв, которые начинаются, как правило, с 2-буквенного кода страны эмитента ценной бумаги</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>международный идентификационный номер ценной бумаги, состоит из 12 символов цифр и латинских букв, которые начинаются, как правило, с 2-буквенного кода страны эмитента ценной бумаги. Первые два символа — буквы, определяющие код страны эмитента согласно стандарту ISO 3166-1 (например, российские ISIN-коды начинаются буквами RU).
+Далее следуют 9 букв и цифр национального идентификационного кода ценной бумаги (англ. National Securities Identifying Number, NSIN). Завершает код контрольная цифра.
+Например, ISIN акции TCS Group — US87238U2033</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8721494c-4428-4658-b4e7-75e3f3c91e03">
+    <name>Ticker</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ticker</value>
+    </synonym>
+    <comment>краткое (1-5 букв) наименование ценной бумаги на конкретной бирже</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>краткое (1-5 букв) наименование ценной бумаги на конкретной бирже</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c49963c3-6a16-44cd-b743-76e21a3ccee8">
+    <name>FIGI</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIGI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>глобальный идентификатор финансового инструмента. Важно: не всегда FIGI, присваемые в Тинькофф Инвестициях, совпадают с международным классификатором. Является устаревшим параметром и не рекомендуется к использованию.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c24bb91-1b7b-44ce-a207-94bd599b8629">
+    <name>Instrument_uid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Instrument uid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

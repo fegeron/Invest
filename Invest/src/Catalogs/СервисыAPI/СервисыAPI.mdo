@@ -32,6 +32,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c717f8f9-28af-4a84-96e2-d6da3b5e8470">
+      <name>Tinkoff</name>
+      <description>Tinkoff</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СервисыAPI.Form.ФормаЭлемента</defaultObjectForm>
