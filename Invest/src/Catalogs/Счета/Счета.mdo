@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5872923-4205-4713-b543-8a4d22db96fe">
+  <producedTypes>
+    <objectType typeId="744d6a7c-19ed-4f90-bbfe-5126e7b8a3f5" valueTypeId="f1a5d8c3-f384-4492-9afd-25558e045904"/>
+    <refType typeId="0d88fcad-1b60-41f5-945f-d1439b313a23" valueTypeId="bdbbf3b4-b9c4-43ec-b0a1-b414b8de2bf6"/>
+    <selectionType typeId="95d0086a-f13f-4a28-bc5c-0c4b68adbc06" valueTypeId="f0179ec0-7573-4e48-bf8b-4ca7cadc679c"/>
+    <listType typeId="dea215c2-d045-4491-9622-cfdc2f17bd00" valueTypeId="2c0cf0e9-1113-470c-b52b-2fd64464d0b2"/>
+    <managerType typeId="496c1b86-e430-4cd8-ad42-5f0a493e04d2" valueTypeId="ace1e03c-7501-4cf7-9dad-8545c6f67cd7"/>
+  </producedTypes>
+  <name>Счета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Счета.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Счета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Счет</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.СервисыAPI</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2280ff75-58f0-4388-a80a-40e0e231bf04">
+    <name>Account_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Account id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

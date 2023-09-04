@@ -53,6 +53,7 @@
   <commonModules>CommonModule.РаботаСJSON</commonModules>
   <commonModules>CommonModule.РаботаСЖурналомОбмена</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <httpServices>HTTPService.httpInvest</httpServices>
   <catalogs>Catalog.МетодыЗапросов</catalogs>
   <catalogs>Catalog.СервисыAPI</catalogs>
@@ -61,6 +62,7 @@
   <catalogs>Catalog.Активы</catalogs>
   <catalogs>Catalog.Позиции</catalogs>
   <catalogs>Catalog.СтатусыТорговыхИнстументов</catalogs>
+  <catalogs>Catalog.Счета</catalogs>
   <documents>Document.ТорговоеПоручение</documents>
   <enums>Enum.МетодыHTTPЗапросов</enums>
   <enums>Enum.РезультатыВыполненияОбмена</enums>

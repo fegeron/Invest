@@ -63,7 +63,7 @@
     </items>
     <items id="56a736a1-4ad6-4601-9ccb-a9d02e52f7f8">
       <name>TinkoffGetMarginAttributes</name>
-      <description>Tinkoffget GetMarginAttributes</description>
+      <description>Tinkoff GetMarginAttributes</description>
       <code xsi:type="core:StringValue">
         <value>000000005</value>
       </code>
@@ -80,6 +80,27 @@
       <description>Tinkoff GetCurrencies</description>
       <code xsi:type="core:StringValue">
         <value>000000007</value>
+      </code>
+    </items>
+    <items id="9faea478-135b-42e4-a644-b2ec65bb2db8">
+      <name>TinkoffGetAccounts</name>
+      <description>Tinkoff GetAccounts</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="35151da8-244d-4ff5-b621-4e63034f248a">
+      <name>TinkoffGetSandboxAccounts</name>
+      <description>Tinkoff GetSandboxAccounts</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="9c810987-271d-4904-b323-9923cf37e311">
+      <name>TinkoffOpenSandboxAccount</name>
+      <description>Tinkoff OpenSandboxAccount</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
       </code>
     </items>
   </predefined>
@@ -115,7 +136,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.МетодыHTTPЗапросов.EnumValue.POST</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -130,7 +154,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

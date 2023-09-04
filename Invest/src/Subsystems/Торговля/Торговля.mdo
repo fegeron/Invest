@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ТорговоеПоручение</content>
+  <content>Catalog.Счета</content>
 </mdclass:Subsystem>

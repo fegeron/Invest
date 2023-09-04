@@ -40,6 +40,13 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="848a9114-0def-42de-a9de-57cc94e1c211">
+      <name>TinkoffSandbox</name>
+      <description>Tinkoff Sandbox</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
@@ -62,43 +69,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e2bc5fb7-b55b-4035-ae01-01dc5d0240fa">
-    <name>Логин</name>
-    <synonym>
-      <key>ru</key>
-      <value>Логин</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="10a75424-24a8-4ca2-8de1-5d9f16d2bba4">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <passwordMode>true</passwordMode>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="d7cac63f-528f-46cf-85e8-2e96272d9c52">
     <name>Порт</name>
     <synonym>
@@ -114,6 +84,22 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0583fe6-be53-4373-8aea-215fd81bab29">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТокеныДоступа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
