@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4517584-127b-40b9-8968-e1b3f612170b">
+  <producedTypes>
+    <refType typeId="161cb858-6e09-4bd3-820a-d2b1a3b58757" valueTypeId="ac0c2b6f-8e85-481b-96bf-1ae01ed5e9dd"/>
+    <listType typeId="71a75428-f0ac-4ac4-969c-d94a3e9b4b4f" valueTypeId="0b7b96cb-9e4b-482e-a3d8-50af1ac5730a"/>
+    <managerType typeId="205fda71-a5d3-4f73-90d8-3d12736e5124" valueTypeId="f6187134-68eb-4666-a3d6-bb1a344a5005"/>
+  </producedTypes>
+  <name>ВидыТорговыхПоручений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды торговых поручений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e633cfa6-bfff-47de-ab11-3b132bff6b53">
+    <name>Лимитное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимитное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81feb75b-10f3-4dea-9546-037edff6d175">
+    <name>Рыночное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рыночное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fafaba9d-b631-4945-8d10-d5fbb1976d71">
+    <name>ЛучшаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лучшая цена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

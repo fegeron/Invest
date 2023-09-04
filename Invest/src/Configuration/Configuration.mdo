@@ -41,6 +41,7 @@
   </languages>
   <subsystems>Subsystem.Логирование</subsystems>
   <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Торговля</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.http</commonModules>
   <commonModules>CommonModule.JIRA</commonModules>
@@ -60,7 +61,10 @@
   <catalogs>Catalog.Активы</catalogs>
   <catalogs>Catalog.Позиции</catalogs>
   <catalogs>Catalog.СтатусыТорговыхИнстументов</catalogs>
+  <documents>Document.ТорговоеПоручение</documents>
   <enums>Enum.МетодыHTTPЗапросов</enums>
   <enums>Enum.РезультатыВыполненияОбмена</enums>
+  <enums>Enum.ВидыТорговыхПоручений</enums>
+  <dataProcessors>DataProcessor.ТестЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОбмена</informationRegisters>
 </mdclass:Configuration>

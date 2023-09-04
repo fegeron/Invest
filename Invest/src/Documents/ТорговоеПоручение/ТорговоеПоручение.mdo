@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="544a2f5e-a14d-4677-8bff-1a764ab4c087">
+  <producedTypes>
+    <objectType typeId="84bc32f3-25b7-446a-a7ca-d7d1e129080b" valueTypeId="77331962-2327-4435-8780-00bcdf41c5d8"/>
+    <refType typeId="06969d2f-5b71-476b-a38d-23718aafa11f" valueTypeId="9bc3d74a-ba61-4457-b536-9951f1395d66"/>
+    <selectionType typeId="28a3e626-6ae8-4891-ac77-132e055e3df1" valueTypeId="90e98021-1cc2-450d-9ebd-e944231063a2"/>
+    <listType typeId="24e38bb5-5a83-468c-bf9a-fc640e55e1be" valueTypeId="7f8ed78e-ef83-424e-a99f-4002ad8021e9"/>
+    <managerType typeId="998cac2d-9f47-40c2-b256-86f87d2a2c20" valueTypeId="80cde451-a090-474a-bb93-1146c0df5f9d"/>
+  </producedTypes>
+  <name>ТорговоеПоручение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговое поручение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ТорговоеПоручение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="48a03184-3102-40cf-a342-479dd9279a16">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТорговыхПоручений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

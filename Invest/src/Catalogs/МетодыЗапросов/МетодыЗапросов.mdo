@@ -47,6 +47,41 @@
         <value>000000002</value>
       </code>
     </items>
+    <items id="3554473f-fad6-4e1b-b6f8-8c6dcee1457c">
+      <name>TinkoffGetCandles</name>
+      <description>Tinkoff GetCandles</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4cdfcda3-b06b-4708-85c2-a4612a34988b">
+      <name>TinkoffGetPositions</name>
+      <description>Tinkoff GetPositions</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="56a736a1-4ad6-4601-9ccb-a9d02e52f7f8">
+      <name>TinkoffGetMarginAttributes</name>
+      <description>Tinkoffget GetMarginAttributes</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="eed5c436-954c-4a24-8d7c-b6fe4b837c5b">
+      <name>TinkoffGetTradingSchedules</name>
+      <description>Tinkoff GetTradingSchedules</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="eb25182a-c08c-4036-81bb-12431f9d293a">
+      <name>TinkoffGetCurrencies</name>
+      <description>Tinkoff GetCurrencies</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
